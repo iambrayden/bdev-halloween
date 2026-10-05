@@ -1,6 +1,6 @@
-# lcrp_halloween
+# bdev-halloween
 
-Halloween countdown and daily spin wheel for Last Chance Roleplay (Qbox + ox_inventory).
+Halloween countdown and daily spin wheel for FiveM (Qbox + ox_inventory).
 
 ## Features
 
@@ -19,9 +19,9 @@ Halloween countdown and daily spin wheel for Last Chance Roleplay (Qbox + ox_inv
 
 ## Install
 
-1. Drop `lcrp_halloween` into your resources folder.
-2. Add `ensure lcrp_halloween` to `server.cfg` **after** `ox_lib`, `oxmysql`, `qbx_core` and `ox_inventory`.
-3. Restart. The `lcrp_halloween_claims` table is created automatically, and upgraded if it was created by an older version (`sql/halloween.sql` is there if you'd rather run it by hand).
+1. Drop `bdev-halloween` into your resources folder.
+2. Add `ensure bdev-halloween` to `server.cfg` **after** `ox_lib`, `oxmysql`, `qbx_core` and `ox_inventory`.
+3. Restart. The `bdev_halloween_claims` table is created automatically, and upgraded if it was created by an older version (`sql/halloween.sql` is there if you'd rather run it by hand).
 
 ## Config
 
